@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/tv_steps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:translationY="-100dp" />
+
+    <ImageView
+        android:id="@+id/baymax1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX=".5"
+        android:scaleY=".5"
+        android:src="@drawable/baymax1"
+        android:translationX="100dp"
+        android:translationY="0dp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/baymax2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX=".5"
+        android:scaleY=".5"
+        android:src="@drawable/baymax2"
+        android:translationX="100dp"
+        android:translationY="0dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="-23dp"
+        android:layout_marginRight="-23dp"
+        android:text="@string/start_pedometer"
+        android:translationY="250dp" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_pedometer"
+        android:translationY="300dp" />
+
+</RelativeLayout>
